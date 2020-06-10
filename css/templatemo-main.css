@@ -251,6 +251,9 @@ h4, .h4 {
 
 
 /* ABOUT ME */
+.left-text {
+  margin-left: -120px;
+}
 
 .about-me .left-text h4 {
   font-size: 24px;
