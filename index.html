@@ -306,32 +306,40 @@
                 <div class="col-sm-8">
                     <div class="contact-form">
                         <div class="row">
-                            <form id="contact" action="" method="post">
+                            <form id="contact" action="https://formspree.io/xknqvnjq" method="POST">
                                 <div class="row">
                                     <div class="col-sm-3"></div>
                                     <div class="col-sm-6">
                                         <h1 class="contact-header">HELLO</h1>
                                         <h3 class="contact-text">If you have any questions or would like to collaborate,
                                             please send a message!</h3>
-                                        <form action="https://formspree.io/xknqvnjq" method="POST">
-                                            <label>
-                                                <input name="name" type="text" class="form-control" id="name"
-                                                    placeholder="Name" required="">
-                                            </label>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <fieldset>
+                                                    <input name="name" type="text" class="form-control" id="name"
+                                                        placeholder="Name" required="">
+                                                </fieldset>
+                                            </div>
+                                            <div class="col-sm-12">
 
-                                            <label>
-                                                <input name="_replyto" type="email" class="form-control" id="email"
-                                                    placeholder="Email" required="">
-                                            </label>
+                                                <fieldset>
+                                                    <input name="_replyto" type="email" class="form-control" id="email"
+                                                        placeholder="Email" required="">
+                                                </fieldset>
+                                            </div>
+                                            <div class="col-sm-12">
 
-                                            <label>
-                                                <textarea name="message" class="form-control" id="message"
-                                                    placeholder="Message" required=""></textarea>
-                                            </label>
+                                                <fieldset>
+                                                    <textarea name="message" class="form-control" id="message"
+                                                        placeholder="Message" required=""></textarea>
+                                                </fieldset>
+                                            </div>
+                                            <div class="col-sm-12">
 
-                                            <button type="submit" id="form-submit" class="btn">SEND
-                                                MESSAGE</button>
-                                        </form>
+                                                <button type="submit" id="form-submit" class="btn">SEND
+                                                    MESSAGE</button>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="col-sm-3"></div>
                                 </div>
